@@ -30,13 +30,13 @@ function StateWise() {
     <>
       
       <div className="container-fluid mt-5">
-        <center>
+        
           <div className="main-heading">
             <h1 className="mb-15 text-center"><span className="font-weight-bold">Indias</span>  Covid-19 Dashboard</h1>
           </div>
           <div className="table-responsive">
             <table className="table table-hover">
-              <thead className="thead-dark">
+              <thead className="thead-dark bg-dark">
                 <tr className='headingSt'>
                   <th>State</th>
                   <th>Confirmed</th>
@@ -65,7 +65,7 @@ function StateWise() {
               </tbody>
             </table>
           </div>
-        </center>
+      
       </div>
     </>
   )
